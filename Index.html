@@ -3,53 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Ativos/Style/style.css">
-    <title>PPT</title>
+    <title>Pedra, Papel, Tesoura</title>
+    <link rel="stylesheet" href="assets/css/pages/index/Index.css">
 </head>
-<body id="Tudo">
-    <div class="Jogo">
-        <div class="Lado1 Janela">
-            <span class="Status">
-                <h1>Jogador</h1>
-                <picture class="Jogador_Vidas">
-                    <img src="Ativos/Imgs/Coracaohum.png" alt="Vida">
-                    <img src="Ativos/Imgs/Coracaohum.png" alt="Vida">
-                    <img src="Ativos/Imgs/Coracaohum.png" alt="Vida">
-                </picture>
-            </span>
-            <div class="Alinhamento">
-                <div class="Quadro">
-                    <img class="Quadro_Play" src="Ativos/Imgs/robovshumanocomfundo.jpg" alt="Joganda">
-                </div>
-            </div>
-        </div>
-        <div class="Lado2 Janela">
-            <span class="Status">
-                <h1>Computador</h1>
-                <picture class="Robo_Vidas">
+<body>
+    <header id="configuration-container">
+        <img src="" alt="" id="Website-logo">
+        <nav id="navigation-system">
 
-                    <img src="Ativos/Imgs/coracaorobo.png" alt="VidaRobo">
-                    <img src="Ativos/Imgs/coracaorobo.png" alt="VidaRobo">
-                    <img src="Ativos/Imgs/coracaorobo.png" alt="VidaRobo">
-                </picture>
-            </span>
-            <div class="Alinhamento">
-                <div class="Quadro">
-                    <img class="Quadro_PC" src="Ativos/Imgs/robovshumanocomfundo.jpg" alt="Joganda">
+        </nav>
+        <div id="container-profile">
+
+        </div>
+    </header>
+    <main id="main-container">
+        <!-- guia e play -->
+        <div id="column-primary">
+            <div id="start-game">
+                <img alt="" id="main-logo">
+                <span id="game-description">
+                    <p>Desafie o computador, jogue com amigos</p>
+                    <p>e veja quem tem o melhor instinto!</p>
+                    <p>rápido, simples e viciante!</p>
+                </span>
+                <button id="play-button">
+                    <i class="fa-solid fa-play"></i>
+                    Jogar agora
+                </button>
+            </div>
+            <div id="game-guide">
+                <div id="span-title" class="span-container">
+                    
+                </div>
+                <div id="span-primary" class="span-container">
+                    <div class="guide-number">
+                        1
+                    </div>
+                    <div class="guide-explanation">
+                        <h2>
+                            Escolha sua jogada
+                        </h2>
+                        <p>
+                            Pedra, papel ou tesoura?
+                        </p>
+                    </div>
+                    <div class="icon-guide">
+                        <i class="fa-solid fa-hand-fist"></i>
+                    </div>
+                    <div class="icon-guide">
+                        <i class="fa-solid fa-hand"></i>
+                    </div>
+                    <div class="icon-guide">
+                        <i class="fa-solid fa-hand-peace"></i>
+                    </div>
+                </div>
+                <div id="span-second" class="span-container">
+                    <div class="guide-number">
+                        2
+                    </div>
+                    <div class="guide-explanation">
+                        <h2>
+                            Espere o oponente
+                        </h2>
+                        <p>
+                            O computador ou um amigo fará a escolha.
+                        </p>
+                    </div>
+                    <div class="icon-guide">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                </div>
+                <div id="span-third" class="span-container">
+                    <div class="guide-number">
+                        3
+                    </div>
+                    <div class="guide-explanation">
+                        <h2>
+                            Veja o resultado
+                        </h2>
+                        <p>
+                            Quem vencer, leva o ponto!
+                        </p>
+                    </div>
+                    <div class="icon-guide">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="Botoes">
-        <h2>Escolha sua Joganda</h2>
-        <span>
-            <button class="Evento">Papel</button>
-            <button class="Evento">Tesoura</button>
-            <button class="Evento">Pedra</button>
-        </span>
-    </div>
-    <div class="Janela_Fexivel">
-    </div>
+        <!-- Coluna de game -->
+        <div id="column-secondary">
+            <div id="game-screen">
+
+            </div>
+            <div id="minimap">
+                <img src="assets/images/Index/partials/main-container/PPTLogotipo.png" alt="" id="minimap-image">
+                <p>
+                    Mostre que você tem o melhor
+                    <br>
+                    instinto e suba no ranking!
+                </p>
+            </div>
+        </div>
+        <div id="column-tertiary">
+            <div id="game-mode-configuration">
+                <h3>
+                    Modo de jogo
+                </h3>
+                <div id="game-mode">
+                    <div class="modes">
+                        <i class="fa-solid fa-tv"></i>
+                        <h4>
+                            Vs Computador
+                        </h4>
+                        <p>
+                            Jogue sozinho
+                        </p>
+                    </div>
+                    <div class="modes">
+                        <i class="fa-solid fa-users"></i>
+                        <h4>
+                            Multiplayer
+                        </h4>
+                        <p>
+                            Desafie seus amigos
+                        </p>
+                    </div>
+                    <div class="modes">
+                        <i class="fa-solid fa-star"></i>
+                        <h4>
+                            Modo Desafio
+                        </h4>
+                        <p>
+                            Vença todos os niveis
+                        </p>
+                    </div>
+                </div>
+                <div id="XP-progress-container">
+                    <div id="XP-progress">
+
+                    </div>
+                </div>
+                <span>
+                    Rank: Aprendiz
+                </span>
+            </div>
+            <div id="container-racking">
+
+            </div>
+        </div>
+    </main>
+    <footer id="Container-page-description">
+
+    </footer>
 </body>
 </html>
-<script id="script" src="Ativos/JavaScript/Cerebro-0_2.Js"></script>
+<script src="https://kit.fontawesome.com/af90d27089.js" crossorigin="anonymous"></script>

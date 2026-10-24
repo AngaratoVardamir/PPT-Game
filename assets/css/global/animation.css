@@ -1,0 +1,11 @@
+@keyframes button-light {
+    0%{
+        box-shadow: 0 0 0px var(--MainColor);
+    }
+    50%{
+        box-shadow: 0 0 10px var(--MainColor);
+    }
+    100%{
+        box-shadow: 0 0 0cqb var(--MainColor);
+    }
+}

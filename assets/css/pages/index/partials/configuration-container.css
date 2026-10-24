@@ -1,0 +1,5 @@
+#configuration-container{
+   background-color: var(--BackgroundScreen);
+    width: 100%;
+    height: 10dvh;
+}

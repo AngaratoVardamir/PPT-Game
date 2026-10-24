@@ -1,0 +1,10 @@
+@import url("partials/column-primary.css");
+@import url("partials/column-secondary.css");
+@import url("partials/column-tertiary.css");
+
+#main-container{
+    background-color: var(--BackgroundScreen);
+    width: 98%;
+    height: 80dvh;
+    display: flex;
+}

@@ -1,0 +1,67 @@
+#column-tertiary{
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#game-mode-configuration{
+    background-color: var(--SecondaryBackground);
+    width: 98%;
+    height: 39dvh;
+    border-radius: 20px;
+    border: 2px solid var(--MainColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#game-mode{
+    height: 10em;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modes{
+    background-color: #00cafcb2;
+    width: 8em;
+    height: 8em;
+    border-radius: 10px;
+    border: 2px solid var(--MainColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--SecondaryBackground);
+    cursor: pointer;
+    transition: .5s;
+}
+.modes:hover{
+    width: 8.5em;
+    height: 8.5em;
+}
+#XP-progress-container{
+    background-color: #0C1A41;
+    overflow: hidden;
+    border-radius: 100px;
+    height: 2em;
+    width: 95%;
+}
+#XP-progress{
+    background-color: var(--MainColor);
+    transition: 1s;
+    width: 1%;
+    height: 100%;
+}
+#XP-progress-container:hover > #XP-progress{
+    width: 160%;
+}
+#container-racking{
+    background-color: var(--SecondaryBackground);
+    width: 98%;
+    height: 39dvh;
+    border-radius: 20px;
+    box-shadow: 0 0 5px var(--MainColor);
+}
